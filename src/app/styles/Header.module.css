@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh; /* Висота хедера */
+    z-index: 1000;
+    background-color: #060d17;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgb(249, 195, 0);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchButton {
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #e68900;
+}
